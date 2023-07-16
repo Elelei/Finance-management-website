@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manu's Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo"></div>
+    <ul class="menu">
+      <li class="active">
+        <a href="#">
+        <i class="fas fa-tachometer-alt"></i>
+        <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-user"></i>
+        <span>Profile</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-chart-bar"></i>
+        <span>Statistics</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-question-circle"></i>
+        <span>FAQ</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-briefcase"></i>
+        <span>Contact</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-cog"></i>
+        <span>settings</span>
+        </a>
+      </li>
+      <li class="Logout">
+        <a href="#">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>Logout</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="main--content">
+    <div class="header--wrapper">
+      <div class="header--title">
+        <span>Manu's</span>
+        <h2>Dashboard</h2>
+    </div>
+    <div class="user--info">
+     <div class="search--box">
+        <i class="fa-solid fa-search"></i>
+        <input type="text" placeholder="search"/>
+      </div>
+      <img src="./image/img.jpg" alt="" />
+    </div>
+   </div>
+
+   <div class="card=-container">
+    <h3 class="main--title">Today's data</h3>
+    <div class="card--wrapper">
+      <div class="payment--card light-red">
+        <div class="card--header">
+          <div class="amount">
+            <span class="title">income capture</span>
+            <span class="amount--value">$500.00</span>
+          </div>
+          <i class="fas fa-dollar-sign icon"></i>
+        </div>
+        <span class="card-detail">**** **** ****15345</span>
+      </div>
+
+      <div class="payment--card light-blue">
+        <div class="card--header">
+          <div class="amount">
+            <span class="title">Expenditure capture</span>
+            <span class="amount--value">$1000.00</span>
+          </div>
+          <i class="fas fa-dollar-sign icon dark-blue"></i>
+        </div>
+        <span class="card-detail">**** **** ****76548</span>
+      </div>
+
+      <div class="payment--card light-purple">
+        <div class="card--header">
+          <div class="amount">
+            <span class="title">Budget capture</span>
+            <span class="amount--value">$750.00</span>
+          </div>
+          <i class="fas fa-dollar-sign icon dark-purple"></i>
+        </div>
+        <span class="card-detail">**** **** ****24354</span>
+      </div>
+    </div>
+   </div>
+
+   <div class="tabular--wrapper">
+    <h3 class="main--title">Finance Data</h3>
+    <div class="table--container">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Transaction Type</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+          <tbody>
+            <tr>
+              <td>
+                2023-07-14
+              </td>
+              <td>Expenses</td>
+              <td>Office supplies</td>
+              <td>$500</td>
+              <td>Office Expenses</td>
+              <td>Pending</td>
+              <td><button>Edit</button></td>
+            </tr>
+            <tr>
+              <td>
+                2023-07-14
+              </td>
+              <td>Income</td>
+              <td>Client payment</td>
+              <td>$300</td>
+              <td>sales</td>
+              <td>Completed</td>
+              <td><button>Edit</button></td>
+            </tr>
+            <tr>
+              <td>
+                2023-07-14
+              </td>
+              <td>Expenses</td>
+              <td>Travel Expenses</td>
+              <td>$1000</td>
+              <td>Travel</td>
+              <td>Completed</td>
+              <td><button>Edit</button></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="7">Total: $1,800</td>
+            </tr>
+          </tfoot>
+      </table>
+      <div class="footer">
+        <a href="./income.html" target="_blank">GO to income Page</a>
+        <a href="./Expenditure.html" target="_blank">GO to Ependiture Page</a>
+        <a href="./Budget.html" target="_blank">GO to Budget Page</a>
+      </div>
+    </div>
+   </div>
+  </div>
+</body>
+</html>
