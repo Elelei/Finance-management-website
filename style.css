@@ -288,13 +288,6 @@ form {
   border: 1px solid #ccc;
 }
 
-form {
-  width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-}
-
 label {
   display: block;
   margin-top: 10px;
@@ -395,31 +388,4 @@ form {
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
-}
-
-label {
-  display: block;
-  margin-top: 10px;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border: none;
-}
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #000;
-  text-decoration: underline;
 }
